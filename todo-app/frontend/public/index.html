@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo Form</title>
+</head>
+<body>
+<h1>Add a Todo Item</h1>
+<form action="http://backend:5000/submittodoitem" method="POST">
+<label>Item Name:</label><br>
+<input type="text" name="itemName" required><br><br>
+<label>Item Description:</label><br>
+<textarea name="itemDescription" required></textarea><br><br>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
